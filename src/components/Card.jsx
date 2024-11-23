@@ -9,9 +9,9 @@ const Card = ({ user, handleRemoveCard, index }) => {
         <h1 className="text-lg font-semibold">{user.name}</h1>
 
         <h3 className="text-gray-400">{user.email}</h3>
-        {/* <p>
+        <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim dolores
-        </p> */}
+        </p>
       </div>
       <button
         onClick={() => handleRemoveCard(index)}
